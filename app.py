@@ -22,7 +22,7 @@ def normalize_all_data(df, scaler):
 
 # Streamlit app
 def main():
-    st.title("Tax Evasion Using CLustering Kmeans Algorithm")
+    st.title("Tax Evasion CLustering Using  Kmeans Algorithm")
 
     # File upload: Accept .csv, .xlsx, and .xls files
     uploaded_file = st.file_uploader("Upload a CSV or Excel file for clustering", type=["csv", "xlsx", "xls"])
